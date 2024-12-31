@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shourtcut icon" href="-paper-rock-scissors.avif" type="image/x-icon">
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>ROCK PAPER SCISSOR</h1>
+    </div>
+    <div class="container">
+        <div class="box" id="rock"><i class="fa-regular fa-hand-back-fist"></i><div id="A" class="name1">A</div></div>
+        <div class="box" id="paper"><i class="fa-regular fa-hand"></i><div id="S" class="name1">S</div></div>
+        <div class="box" id="scissor"><i class="fa-solid fa-hand-scissors"></i><div id="D" class="name1">D</div></div>
+    </div>
+    <!-- <div class="name">
+        <div id="A" class="name1">A</div>
+        <div id="S" class="name1">S</div>
+        <div id="D" class="name1">D</div>
+    </div> -->
+    <div class="result" id="result"><p>MAKE YOUR MOVE</p></div>
+    <div id="score">
+        <div class="score" id="scoreh">
+            <div class="score1" id="humanScore">0</div>
+            <div class="score1" id="human">HUMAN</div>
+        </div>
+        <div class="score" id="scorec">
+            <div class="score2" id="computerScore">0</div>
+            <div class="score2" id="computer">COMPUTER</div>
+        </div>
+    </div>
+    <div id="resetcontainer">
+        <div class="reset" id="reset">RESET</div>
+    </div>
+
+     <div class="containerc"> <!--c stands for computer -->
+        <div class="boxc" id="rockc"><i class="fa-regular fa-hand-back-fist"></i></div>
+        <div class="boxc" id="paperc"><i class="fa-regular fa-hand"></i></div>
+        <div class="boxc" id="scissorc"><i class="fa-solid fa-hand-scissors"></i></div>
+    </div>
+    <div class="cchoice">COMPUTER CHOICE</div>
+    <div class="rule" id="rule">
+        <details>
+            <summary>RULE</summary>
+            <p id="rulep">The players may start by counting to three aloud, or by speaking the name of the game (e.g. "Rock! Paper! Scissors!"), raising one hand in a fist and swinging it down with each syllable onto their other hand (or in a less common variant, holding it behind their back). They then "throw" or "shoot" by extending their selected sign towards their opponent on what would have been the fourth count, often saying the word "shoot" while doing so. Variations include a version where players throw immediately on the third count (thus throwing on the count of "Scissors!"), a version including five counts rather than four ("Rock! Paper! Scissors! Says! Shoot!", almost exclusively localized in the United States to Long Island and some parts of New York City), a version where players say “Scissors! Paper! Rock!”, and a version where players shake their hands three times before "throwing"</p>
+            <div class="img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rock-paper-scissors.svg/330px-Rock-paper-scissors.svg.png"></div>
+        </details>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
