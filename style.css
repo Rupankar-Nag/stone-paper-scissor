@@ -47,22 +47,9 @@ h1{
      rgba(72, 135, 202, 0.9) 0 0 90px ,
         3px 3px 3px red;
 }
-/* .name{
-    display: flex;
-    justify-content: space-around;
-    color: aqua;
-    font-size: 40px;
-} */
 .name1{
     font-size: 20px;
 }
-/*#S{
-    position: absolute;
-}
-#D{
-    position: relative;
-    right:40px;
-} */
 .result{
     display: flex;
     justify-content: center;
