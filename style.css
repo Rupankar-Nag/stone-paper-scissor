@@ -155,6 +155,9 @@ summary:hover{
     color: #000000;
 }
 @media only screen and (max-width:450px){
+    .heading{
+         font-size: 15px;
+    }
     .box{
         height: 100px;
         width: 100px;
